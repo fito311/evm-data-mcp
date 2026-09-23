@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "xyz.47620/evm-data",
   "title": "47620 Base + Polygon Data API",
-  "description": "Pay-per-call Base and Polygon onchain data over x402 for AI agents: balances, tokens, txs, gas, contracts and trending pairs.",
+  "description": "Pay-per-call Base and Polygon onchain data over x402 for AI agents.",
   "repository": {
     "url": "https://github.com/fito311/evm-data-mcp",
     "source": "github"
