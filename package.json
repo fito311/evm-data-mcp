@@ -1,0 +1,41 @@
+{
+  "name": "47620-evm-mcp",
+  "version": "1.0.0",
+  "mcpName": "xyz.47620/evm-data",
+  "description": "MCP server for the 47620 Base + Polygon Data API — pay-per-call EVM onchain data over x402, for AI agents.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fito311/evm-data-mcp.git"
+  },
+  "bin": {
+    "47620-evm-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node -e \"process.exit(0)\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "base",
+    "polygon",
+    "evm",
+    "model-context-protocol",
+    "agents",
+    "ai",
+    "payments"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "express": "^4.22.3"
+  }
+}

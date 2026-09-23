@@ -1,0 +1,9 @@
+node_modules
+*.log
+.env
+.env.*
+mcp_test.mjs
+pay_test.mjs
+fund_buyer.mjs
+mcp-remote.ts
+*.bak*
